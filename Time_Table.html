@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab work</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4285f4;
+            color: white;
+        }
+
+        .day {
+            background-color: #4285f4;
+            color: white;
+        }
+
+        #lunch {
+            color: rgb(93, 58, 58);
+            font-size: 33px;
+            text-align: center;
+            font-weight: bold;
+            
+        }
+
+        #lunch li {
+            margin: -12px;
+        }
+
+        .lab {
+            background-color: #a3c2c2;
+        }
+
+        .library {
+            background-color: #e6b800;
+        }
+
+        .sports {
+            background-color: #00cc00;
+        }
+
+        .seminar {
+            background-color: #ff6666;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Time Table</h1>
+    <div class="table">
+        <table>
+            <tr>
+                <th>Day/Period </th>
+                <th>I<br>9:30-10:20</th>
+                <th>II<br>10:20-11:10</th>
+                <th>III<br>11:10-12:00</th>
+                <th>12:00-12:40</th>
+                <th>IV<br>12:40-01:30</th>
+                <th>V<br>1:30-02:20</th>
+                <th>VI<br>2:20-03:10</th>
+                <th>VII<br>3:10-04:00</th>
+            </tr>
+            <tr>
+                <td class="day">Monday</td>
+                <td>Eng</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td rowspan="7" id="lunch">
+                    <li>L</li><li>U</li><li>N</li><li>C</li><li>H</li>
+                </td>
+                <td class="lab" colspan="3">LAB</td>
+                <td>Phy</td>
+            </tr>
+            <tr>
+                <td class="day">Tuesday</td>
+                <td class="lab" colspan="3">LAB</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td class="sports">SPORTS</td>
+            </tr>
+            <tr>
+                <td class="day">Wednesday</td>
+                <td>Mat</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td class="library" colspan="3">LIBRARY</td>
+            </tr>
+            <tr>
+                <td class="day">Thursday</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td class="lab" colspan="3">LAB</td>
+                <td>Mat</td>
+            </tr>
+            <tr>
+                <td class="day">Friday</td>
+                <td class="lab" colspan="3">LAB</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td>Eng</td>
+                <td>Phy</td>
+            </tr>
+            <tr>
+                <td class="day">Saturday</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td class="seminar" colspan="3">SEMINAR</td>
+                <td class="sports">SPORTS</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

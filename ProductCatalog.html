@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            
+        }
+    </style>
+    <title>Task</title>
+</head>
+<table>
+    <thead>
+        <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+
+            <th>Category</th>
+            <th>Price</th>
+          </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>101</td>
+            <td>Laptop</td>
+            <td rowspan="2">Accessories
+                <table>
+                    <tr><td>Accessory ID</td>
+                    <td>Mouse</td></tr>
+                    <tr><td>Accessory ID</td>
+                        <td>Keyboard</td></tr>
+                </table>
+            </td>
+            <td rowspan="2">$899.99</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="1">Software
+                <table>
+                    <tr><td>SoftwareID</td>
+                    <td>Operating System</td></tr>
+                    <tr><td>SoftwareID</td>
+                        <td>Ofice Suite</td></tr>
+                </table>
+            </td>
+            <td>$49.99</td>
+                
+        </tr>
+        <tr>
+            <td>201</td>
+            <td>Smartphone</td>
+            <td>Electronics</td>
+            <td>$499.99</td>
+        </tr>
+        <tr>
+            <td>301</td>
+            <td>Camera</td>
+            <td rowspan="2">Photography
+            </td>
+            <td>$499.99</td>
+        </tr>
+        <tr>
+            <td>401</td>
+            <td>Headphones</td>
+                <td>$499.99</td>
+            
+        </tr>
+
+    </tbody>
+</table>
+<body>
